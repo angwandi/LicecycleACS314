@@ -5,7 +5,6 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.app.Activity;
 import android.content.Context;
 import android.content.SharedPreferences;
-import android.content.res.Resources;
 import android.graphics.Color;
 import android.os.Bundle;
 import android.text.Editable;
@@ -104,13 +103,13 @@ public class MainActivity extends AppCompatActivity {
 
     private void setBackgroundColor(String chosenColor, LinearLayout myScreen) {
         if (chosenColor.contains("red"))
-            myScreen.setBackgroundColor(0xffff0000);
+            myScreen.setBackgroundColor(Color.RED);
         if (chosenColor.contains("green"))
-            myScreen.setBackgroundColor(0xff00ff00);
+            myScreen.setBackgroundColor(Color.GREEN);
         if (chosenColor.contains("blue"))
-            myScreen.setBackgroundColor(0xff0000ff);
+            myScreen.setBackgroundColor(Color.BLUE);
         if (chosenColor.contains("white"))
-            myScreen.setBackgroundColor(0xffffffff);
+            myScreen.setBackgroundColor(Color.WHITE);
     }
 
     private void updateMeUsingSavedStateData() {
