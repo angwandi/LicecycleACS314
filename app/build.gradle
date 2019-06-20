@@ -26,4 +26,27 @@ dependencies {
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'androidx.test:runner:1.2.0'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+    implementation 'com.google.android.material:material:1.0.0'
+    implementation 'androidx.recyclerview:recyclerview:1.0.0'
+    // Anko Commons
+    implementation "org.jetbrains.anko:anko-commons:$anko_version"
+    implementation "org.jetbrains.anko:anko-design:$anko_version" // For SnackBars
+
+    //fancy toast
+    implementation 'com.muddzdev:styleabletoast:2.2.1'
+    //Cardview
+    implementation "androidx.cardview:cardview:$cardview_version"
+
+    // Anko Commons
+    implementation "org.jetbrains.anko:anko-commons:$anko_version"
+    // ConstraintLayout
+    implementation "org.jetbrains.anko:anko-constraint-layout:$anko_version"
+    // Support-v4 (only Anko Commons)
+    implementation "org.jetbrains.anko:anko-support-v4-commons:$anko_version"
+    // Appcompat-v7 (only Anko Commons)
+    implementation "org.jetbrains.anko:anko-appcompat-v7-commons:$anko_version"
+    //viewpager2
+    implementation "androidx.viewpager2:viewpager2:$viewpager2_version"
+
 }
