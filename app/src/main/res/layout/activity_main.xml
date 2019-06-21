@@ -82,4 +82,17 @@
         android:inputType="textCapSentences"
         android:maxLines="1"
         tools:ignore="LabelFor,UnusedAttribute" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn"
+        style="@style/Widget.MaterialComponents.Button.TextButton"
+        android:layout_width="55dp"
+        android:layout_height="45dp"
+        android:layout_alignBaseline="@id/nameEdtx"
+        android:layout_alignParentEnd="true"
+        android:text="Pay"
+        android:textAlignment="textEnd"
+        android:textAllCaps="false"
+        android:textSize="18sp"
+        android:textStyle="bold" />
 </RelativeLayout>
